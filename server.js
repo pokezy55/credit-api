@@ -89,7 +89,7 @@ app.post('/admin/add-credit', (req, res) => {
         return res.status(403).json({ success: false, message: 'Unauthorized: Invalid admin key' });
     }
 
-    if (!username || typeof amount !== 'number' || amount <= 0) {
+    if (!username || typeof amount !== 'number' || amount === 0) {
         return res.status(400).json({ success: false, message: 'Invalid input: username and positive amount are required.' });
     }
 
