@@ -1,0 +1,16 @@
+{
+  "name": "credit-api",
+  "version": "1.0.0",
+  "description": "Node.js Express API for credit management",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "body-parser": "^1.20.2"
+  }
+}
